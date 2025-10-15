@@ -28,7 +28,7 @@ const projects = [
     dates: "Jul 2025 – Aug 2025",
     description:
       "An AI-powered iOS travel app that provides tourists with instant information, historical facts, and personalized recommendations for nearby attractions.",
-    tech: ["SwiftUI", "AWS Lambda", "Python", "OpenAI API"],
+    tech: ["iOS","SwiftUI", "AWS Lambda", "Python", "OpenAI API"],
     image: "/background2.jpeg",
     link: "https://github.com/malihanawshin/WanderMind",
   },
@@ -46,17 +46,17 @@ const projects = [
     dates: "Jan 2024 - Mar 2024",
     description:
       "iOS app that tracks movement speed and acceleration using CoreMotion and CoreBluetooth, visualizing real-time performance data.",
-    tech: ["SwiftUI", "CoreMotion", "CoreBluetooth"],
+    tech: ["iOS","SwiftUI", "CoreMotion", "CoreBluetooth"],
     image: "/athlete-tracker.png",
     link: "https://github.com/malihanawshin/Athlete-Tracker",
   },
   {
     title: "Anko – Bengali Handwritten Number Recognizer",
-    dates: "2021",
+    dates: "2019",
     description:
       "Android application for Bengali handwritten number recognition integrating machine learning models to achieve high-accuracy classification.",
     tech: ["Android", "Java", "Python"],
-    image: "/anko.png",
+    image: "/cnn.png",
     link: "https://github.com/malihanawshin/Anko_HBNR",
   },
 ];

@@ -21,12 +21,12 @@ export default function Home() {
       <About />
       <Education />
       <Experience />
-      <WorkPhilosophy />
       <Projects />
       {/*
       <Gallery />
       */}
       <Certifications />
+      <WorkPhilosophy />
       <Contact />
       <Footer />
     </main>

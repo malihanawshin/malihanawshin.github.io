@@ -17,7 +17,7 @@ const certificates: Certificate[] = [
   {
     title: "AWS Certified Cloud Practitioner",
     organization: "Amazon Web Services (AWS)",
-    date: "March 7, 2025",
+    date: "July 3, 2025",
     description:
       <>
         Validated foundational cloud knowledge and AWS global infrastructure.  
@@ -51,6 +51,57 @@ const certificates: Certificate[] = [
     image: "/certificates/hackerrank.png",
     //link: "https://www.hackerrank.com/certificates/iframe/e46595e56b9b",
   },
+
+  {
+    title: "Publication of Research Paper",
+    organization: "IEEE ICT for Sustainability 2024",
+    date: "June, 2024",
+    description:
+      "I presented the research paper titled 'Sufficient Use of the Cloud for Work: Practitioners’ Perception and Potential for Energy Saving' based on my Master's thesis at the IEEE ICT for Sustainability 2024 conference. The paper explores how tactics of cloud usage can be leveraged to reduce energy consumption in work environments.",
+    type: "Academic",
+    image: "/certificates/publication.png",
+  },
+
+  {
+    title: "Mentoring Certificate",
+    organization: "East West University",
+    date: "August, 2024",
+    description:
+      "Certification of serving as a Lecturer in the Department of Computer Science and Engineering at East West University.",
+    type: "Academic",
+    image: "/certificates/eastwest.png",
+  },
+
+  {
+    title: "Samsung Tech Certificate",
+    organization: "Samsung Research Bangladesh",
+    date: "September, 2021",
+    description:
+      "Certification of completing 2 years at Samsung, demonstrating proficiency in mobile app development and software engineering principles.",
+    type: "Technical",
+    image: "/certificates/samsung.png",
+  },
+
+  {
+    title: "Award of Erasmus+: Erasmus Mundus Scholarship",
+    organization: "European Education and Culture Executive Agency (EACEA)",
+    date: "April, 2021",
+    description:
+      "I was awarded the Erasmus+: Erasmus Mundus Scholarship for pursuing a Master's degree in Computer Science with the Erasmus Mundus MSc Program: Software Engineers for Green Deal.",
+    type: "Academic",
+    image: "/certificates/erasmus.png",
+  },
+
+  {
+    title: "IELTS Certificate (C1)",
+    organization: "British Council",
+    date: "March 20, 2020",
+    description:
+      "IELTS Academic with an overall band score of 7.5, demonstrating advanced English proficiency in listening, reading, writing, and speaking.",
+    type: "Language",
+    image: "/certificates/ielts.jpg",
+  },
+
 ];
 
 
@@ -85,7 +136,7 @@ export default function Certifications() {
   return (
     <section id="certifications" className="relative py-32 px-6 z-10">
       <div className="container mx-auto max-w-7xl">
-        <h2 className="text-5xl font-bold text-center mb-8 glow-text">Certifications & Achievements</h2>
+        <h2 className="text-5xl font-bold text-center mb-8 glow-text">Certifications, Publication & Award</h2>
 
         {/* Filter Menu */}
         <div className="flex flex-wrap justify-center gap-3 mb-16">
@@ -119,7 +170,7 @@ export default function Certifications() {
             >
               <div className="flip-card-inner">
                 {/* Front of Card */}
-                <div className="flip-card-front glass rounded-2xl p-6 flex flex-col items-center justify-center">
+                <div className="flip-card-front glass rounded-2xl p-6 flex flex-col items-center justify-start">
                   <div className="relative w-full h-56 mb-4 rounded-lg overflow-hidden bg-background/50 border border-accent/20">
                     <Image
                       src={
@@ -132,7 +183,7 @@ export default function Certifications() {
                       quality={95}
                     />
                   </div>
-                  <h3 className="text-xl font-bold text-center mb-2 line-clamp-2">{cert.title}</h3>
+                  <h3 className="text-xl font-bold text-center mb-2 line-clamp-2 min-h-[4rem]">{cert.title}</h3>
                   <p className="text-accent text-sm font-semibold">{cert.organization}</p>
                   <p className="text-muted-foreground text-sm mt-2">{cert.date}</p>
                   <div className="mt-4 px-3 py-1 rounded-full bg-accent/20 text-accent text-xs font-medium">
