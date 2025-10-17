@@ -51,6 +51,15 @@ const projects = [
   //   link: "https://github.com/malihanawshin/Athlete-Tracker",
   // },
   {
+    title: "Landmarks BD",
+    dates: "September 2025 – Current",
+    description:
+      "Experience the beauty of Bangladesh through an interactive travel guide. From the golden beaches of Cox’s Bazar to the serene hills of Sajek and the wild mangroves of the Sundarbans, this app helps you explore stunning destinations with rich details, maps, and travel insights. Perfect for tourists and locals alike, it’s your personal guide to the most breathtaking spots across Bangladesh.",
+    tech: ["iOS","SwiftUI"],
+    image: "/landmarks.png",
+    link: "https://github.com/malihanawshin/Landmarks-BD",
+  },
+  {
     title: "Anko – Bengali Handwritten Number Recognizer",
     dates: "2019",
     description:

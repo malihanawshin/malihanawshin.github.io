@@ -67,7 +67,7 @@ export default function Education() {
             transition={{ duration: 0.6 }}
             className="text-5xl font-bold mb-16 glow-text"
           >
-            Education Journey
+            Academic Journey
           </motion.h2>
           <p className="text-muted-foreground text-sm">
             Scroll down to explore timeline • 2015 - 2023
