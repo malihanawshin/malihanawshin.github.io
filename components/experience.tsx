@@ -56,18 +56,18 @@ export default function Experience() {
       "Refactored legacy code, improving scalability and reducing crashes by 25%.",
     ],
   },
-  {
-    id: 5,
-    start: "Jan 2018",
-    end: "June 2018",
-    role: "Software Developer Intern",
-    company: "Brain Station 23 Limited",
-    location: "Dhaka, Bangladesh",
-    details: [
-      "Developed features for the Online Kaizen System — a web-based portal that automates the implementation process for the Jute industry of Bangladesh.",
-      "Built the BS Performance Appraisal system — an online employee evaluation platform developed from scratch using Laravel and PHP.",
-    ],
-  },
+  // {
+  //   id: 5,
+  //   start: "Jan 2018",
+  //   end: "June 2018",
+  //   role: "Software Developer Intern",
+  //   company: "Brain Station 23 Limited",
+  //   location: "Dhaka, Bangladesh",
+  //   details: [
+  //     "Developed features for the Online Kaizen System — a web-based portal that automates the implementation process for the Jute industry of Bangladesh.",
+  //     "Built the BS Performance Appraisal system — an online employee evaluation platform developed from scratch using Laravel and PHP.",
+  //   ],
+  // },
 ];
 
 

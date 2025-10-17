@@ -37,7 +37,7 @@ export default function Education() {
     end: "Feb 2022",
     school: "University of L'Aquila",
     location: "L'Aquila, Italy",
-    degree: "Master of Science in Technology, SE4GD",
+    degree: "Master of Science in Computer Science, SE4GD",
     details: [
       "Completed AI, IOT, and Model Driven Engineering courses as part of the Erasmus Mundus MSc program: Software Engineers for Green Deal.",
       ],

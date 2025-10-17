@@ -37,19 +37,19 @@ const projects = [
     dates: "Jul 2025 – Present",
     description:
       "An interactive dashboard deployed on AWS EC2 to visualize the carbon footprint of software development activities, promoting sustainable and eco-efficient coding practices.",
-    tech: ["React", "Node.js", "Docker", "AWS", "GitHub Actions"],
-    image: "/architecture.png",
+    tech: ["React", "Python", "Docker", "AWS", "GitHub Actions"],
+    image: "/greendev.png",
     link: "https://github.com/malihanawshin/Develop_Greenly",
   },
-  {
-    title: "Athlete Tracker",
-    dates: "Jan 2024 - Mar 2024",
-    description:
-      "iOS app that tracks movement speed and acceleration using CoreMotion and CoreBluetooth, visualizing real-time performance data.",
-    tech: ["iOS","SwiftUI", "CoreMotion", "CoreBluetooth"],
-    image: "/athlete-tracker.png",
-    link: "https://github.com/malihanawshin/Athlete-Tracker",
-  },
+  // {
+  //   title: "Athlete Tracker",
+  //   dates: "Jan 2024 - Mar 2024",
+  //   description:
+  //     "iOS app that tracks movement speed and acceleration using CoreMotion and CoreBluetooth, visualizing real-time performance data.",
+  //   tech: ["iOS","SwiftUI", "CoreMotion", "CoreBluetooth"],
+  //   image: "/athlete-tracker.png",
+  //   link: "https://github.com/malihanawshin/Athlete-Tracker",
+  // },
   {
     title: "Anko – Bengali Handwritten Number Recognizer",
     dates: "2019",
