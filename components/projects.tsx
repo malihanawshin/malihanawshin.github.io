@@ -7,12 +7,39 @@ import { Button } from "@/components/ui/button"
 const projects = [
   {
     title: "Flex Rental",
-    dates: "Sep 2025 - Present",
+    dates: "September 2025 - Present",
     description:
       "Full-stack web application for managing and analyzing property reviews from Hostaway with an interactive dashboard and real-time metrics.",
     tech: ["React", "Node.js", "Express", "Vercel"],
     image: "/houserental.png",
     link: "https://github.com/malihanawshin/house-rental",
+  },
+  {
+    title: "Landmarks BD",
+    dates: "September 2025 – Present",
+    description:
+      "An iOS app that lets users discover the most beautiful natural landmarks across Bangladesh. The app combines travel inspiration, user engagement, and gamified exploration in one elegant interface.",
+    tech: ["iOS","SwiftUI", "UIKit", "Swift"],
+    image: "/landmarks.png",
+    link: "https://github.com/malihanawshin/Landmarks-BD",
+  },
+  {
+    title: "Green Dev Dashboard",
+    dates: "July – September 2025",
+    description:
+      "An interactive dashboard deployed on AWS EC2 to visualize the carbon footprint of software development activities, promoting sustainable and eco-efficient coding practices.",
+    tech: ["React", "Python", "Docker", "AWS", "GitHub Actions"],
+    image: "/greendev.png",
+    link: "https://github.com/malihanawshin/Develop_Greenly",
+  },
+  {
+    title: "Wander Mind",
+    dates: "July 2025 – Aug 2025",
+    description:
+      "An AI-powered iOS travel app that provides tourists with instant information, historical facts, and personalized recommendations for nearby attractions.",
+    tech: ["iOS","SwiftUI", "AWS Lambda", "Python", "OpenAI API"],
+    image: "/background2.jpeg",
+    link: "https://github.com/malihanawshin/WanderMind",
   },
   {
     title: "Distributed Circular Economy",
@@ -22,42 +49,6 @@ const projects = [
     tech: ["React", "Solidity", "Web3.js", "Ethereum", "Node.js"],
     image: "/dce_app.png",
     link: "https://github.com/malihanawshin/CircularEconomy_frontend",
-  },
-  {
-    title: "Wander Mind",
-    dates: "Jul 2025 – Aug 2025",
-    description:
-      "An AI-powered iOS travel app that provides tourists with instant information, historical facts, and personalized recommendations for nearby attractions.",
-    tech: ["iOS","SwiftUI", "AWS Lambda", "Python", "OpenAI API"],
-    image: "/background2.jpeg",
-    link: "https://github.com/malihanawshin/WanderMind",
-  },
-  {
-    title: "Green Dev Dashboard",
-    dates: "Jul 2025 – Present",
-    description:
-      "An interactive dashboard deployed on AWS EC2 to visualize the carbon footprint of software development activities, promoting sustainable and eco-efficient coding practices.",
-    tech: ["React", "Python", "Docker", "AWS", "GitHub Actions"],
-    image: "/greendev.png",
-    link: "https://github.com/malihanawshin/Develop_Greenly",
-  },
-  // {
-  //   title: "Athlete Tracker",
-  //   dates: "Jan 2024 - Mar 2024",
-  //   description:
-  //     "iOS app that tracks movement speed and acceleration using CoreMotion and CoreBluetooth, visualizing real-time performance data.",
-  //   tech: ["iOS","SwiftUI", "CoreMotion", "CoreBluetooth"],
-  //   image: "/athlete-tracker.png",
-  //   link: "https://github.com/malihanawshin/Athlete-Tracker",
-  // },
-  {
-    title: "Landmarks BD",
-    dates: "September 2025 – Current",
-    description:
-      "Experience the beauty of Bangladesh through an interactive travel guide. From the golden beaches of Cox’s Bazar to the serene hills of Sajek and the wild mangroves of the Sundarbans, this app helps you explore stunning destinations with rich details, maps, and travel insights. Perfect for tourists and locals alike, it’s your personal guide to the most breathtaking spots across Bangladesh.",
-    tech: ["iOS","SwiftUI"],
-    image: "/landmarks.png",
-    link: "https://github.com/malihanawshin/Landmarks-BD",
   },
   {
     title: "Anko – Bengali Handwritten Number Recognizer",
