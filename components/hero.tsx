@@ -59,7 +59,7 @@ export default function Hero() {
         className="relative z-20 text-center px-6"
       >
         <motion.h1
-          className="text-5xl md:text-7xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 via-blue-500 to-purple-600"
+          className="text-5xl md:text-7xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 via-green-500 to-purple-600"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3 }}
@@ -93,7 +93,7 @@ export default function Hero() {
         >
           <button
             onClick={() => handleScroll("contact")}
-            className="px-6 py-3 rounded-full bg-gradient-to-r from-cyan-500 to-blue-600 hover:scale-105 transform transition duration-300 shadow-lg shadow-cyan-500/30"
+            className="px-6 py-3 rounded-full bg-gradient-to-r from-cyan-500 to-green-600 hover:scale-105 transform transition duration-300 shadow-lg shadow-cyan-500/30"
           >
             Hire Me
           </button>
