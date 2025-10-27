@@ -14,8 +14,8 @@ export default function Experience() {
     company: "Remote",
     location: "Remote",
     details: [
-      "Developed an AI-powered iOS travel app — WanderMind, enabling tourists to access instant information, historical facts, and personalized recommendations.",
-      "Achieved a 30% reduction in response latency and improved overall user engagement using SwiftUI, OpenAI API, AWS Lambda, and Python.",
+      "Developed an AI-powered iOS travel app 'WanderMind', enabling tourists to access instant information, historical facts, and personalized recommendations.",
+      "Developed Green-dev dashboard deployed on AWS EC2 to visualize the carbon footprint of software development activities, promoting sustainable and eco-efficient coding practices.",
     ],
   },
   {
@@ -38,7 +38,7 @@ export default function Experience() {
     company: "Solita",
     location: "Finland",
     details: [
-      "Developed 80% of the features for the Distributed Circular Economy project — a blockchain-based web platform for selling and buying recycled products.",
+      "Developed features for the Distributed Circular Economy project — a blockchain-based web platform for selling and buying recycled products.",
       "Implemented smart-contract integrations using ReactJS and Solidity, collaborating with 7 multinational colleagues.",
     ],
   },

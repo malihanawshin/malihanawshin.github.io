@@ -12,7 +12,7 @@ export default function Education() {
     end: "Aug 2023",
     school: "Vrije Universiteit Amsterdam",
     location: "Amsterdam, Netherlands",
-    degree: "Master of Science in Computer Science, SE4GD",
+    degree: "Master of Science in Computer Science, Erasmus Mundus SE4GD Program",
     details: [
       "Thesis: 'Digital Sufficiency of Cloud Usage' — published at IEEE ICT4S 2024, presenting sustainable, energy-saving strategies that reduce data traffic up to 15.5 times.",
       "Specialized in Green IT track under the Erasmus Mundus Joint MSc Program: 'Software Engineers for Green Deal' (SE4GD) with a full scholarship.",
@@ -24,7 +24,7 @@ export default function Education() {
     end: "July 2022",
     school: "LUT University",
     location: "Lappeenranta, Finland",
-    degree: "Master of Science in Technology, SE4GD",
+    degree: "Master of Science in Technology, Erasmus Mundus SE4GD Program",
     details: [
       "Completed Master's degree as part of the SE4GD Erasmus Mundus MSc program (Grade: 4.4/5).",
       "Developed smart-contract, blockchain-based project 'Distributed Circular Economy' for the Finnish software company Solita.",
@@ -37,7 +37,7 @@ export default function Education() {
     end: "Feb 2022",
     school: "University of L'Aquila",
     location: "L'Aquila, Italy",
-    degree: "Master of Science in Computer Science, SE4GD",
+    degree: "Master of Science in Computer Science, Erasmus Mundus SE4GD Program",
     details: [
       "Completed AI, IOT, and Model Driven Engineering courses as part of the Erasmus Mundus MSc program: Software Engineers for Green Deal.",
       ],

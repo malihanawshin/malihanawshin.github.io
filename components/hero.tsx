@@ -95,7 +95,7 @@ export default function Hero() {
             onClick={() => handleScroll("contact")}
             className="px-6 py-3 rounded-full bg-gradient-to-r from-cyan-500 to-green-600 hover:scale-105 transform transition duration-300 shadow-lg shadow-cyan-500/30"
           >
-            Hire Me
+            Let's Connect
           </button>
           <button
             onClick={() => handleScroll("projects")}

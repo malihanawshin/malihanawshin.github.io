@@ -10,7 +10,7 @@ const projects = [
     dates: "September 2025 - Present",
     description:
       "Full-stack web application for managing and analyzing property reviews from Hostaway with an interactive dashboard and real-time metrics.",
-    tech: ["React", "Node.js", "Express", "Vercel"],
+    tech: ["React", "Node.js", "Express", "Vercel", "Google Maps API"],
     image: "/houserental.png",
     link: "https://github.com/malihanawshin/house-rental",
   },
