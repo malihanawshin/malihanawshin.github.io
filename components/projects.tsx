@@ -14,14 +14,14 @@ const projects = [
     image: "/houserental.png",
     link: "https://github.com/malihanawshin/house-rental",
   },
-  {
-    title: "Landmarks BD",
-    dates: "September 2025 – Present",
+    {
+    title: "Wander Mind",
+    dates: "July 2025 – Aug 2025",
     description:
-      "An iOS app that lets users discover the most beautiful natural landmarks across Bangladesh. The app combines travel inspiration, user engagement, and gamified exploration in one elegant interface.",
-    tech: ["iOS","SwiftUI", "UIKit", "Swift"],
-    image: "/landmarks.png",
-    link: "https://github.com/malihanawshin/Landmarks-BD",
+      "An AI-powered iOS travel app that provides tourists with instant information, historical facts, and personalized recommendations for nearby attractions.",
+    tech: ["iOS","SwiftUI", "AWS Lambda", "Python", "OpenAI API"],
+    image: "/background2.jpeg",
+    link: "https://github.com/malihanawshin/WanderMind",
   },
   {
     title: "Green Dev Dashboard",
@@ -33,13 +33,22 @@ const projects = [
     link: "https://github.com/malihanawshin/Develop_Greenly",
   },
   {
-    title: "Wander Mind",
-    dates: "July 2025 – Aug 2025",
+    title: "Landmarks BD",
+    dates: "September 2025 – Present",
     description:
-      "An AI-powered iOS travel app that provides tourists with instant information, historical facts, and personalized recommendations for nearby attractions.",
-    tech: ["iOS","SwiftUI", "AWS Lambda", "Python", "OpenAI API"],
-    image: "/background2.jpeg",
-    link: "https://github.com/malihanawshin/WanderMind",
+      "An iOS app that lets users discover the most beautiful natural landmarks across Bangladesh. The app combines travel inspiration, user engagement, and gamified exploration in one elegant interface.",
+    tech: ["iOS","SwiftUI", "UIKit", "Swift"],
+    image: "/landmarks.png",
+    link: "https://github.com/malihanawshin/Landmarks-BD",
+  },
+  {
+    title: "Solar ROI Estimator",
+    dates: "October 2025 – Present",
+    description:
+      "Cross-platform mobile app for estimating solar panel return on investment (ROI) based on home details like electricity usage and size. It calculates production, savings, payback, and CO₂ reductions using standard PV formulas.",
+    tech: ["React Native","TypeScript", "Expo", "iOS"],
+    image: "/solarROI.png",
+    link: "https://github.com/malihanawshin/Renewable",
   },
   {
     title: "Distributed Circular Economy",
