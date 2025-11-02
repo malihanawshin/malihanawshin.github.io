@@ -96,7 +96,7 @@ export default function Contact() {
 
           <form
             onSubmit={handleSubmit}
-            action="https://script.google.com/macros/s/AKfycbyG4CUD5cVtcQZoP1mlOsyYVNykrvTTeFrIFqoOWjfEjDBBOWqyYdRZ8CjAH2iP-QKkEQ/exec"
+            action="https://script.google.com/macros/s/AKfycbwgv9FhvMB81ahtSmz9b5eVo1ZPmjD-_BxDByVE4-zFSbT9PcnKm6bJlB0nEWIsCZtX-w/exec"
             method="POST"
             className="glass p-8 rounded-2xl space-y-6"
           >
