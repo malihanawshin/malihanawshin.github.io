@@ -72,7 +72,7 @@ export default function Contact() {
 
             <div className="flex items-center gap-3 text-muted-foreground">
               <MapPin size={24} weight="duotone" className="text-primary" />
-              <span className="text-lg">Magdeburg, Germany</span>
+              <span className="text-lg">Germany</span>
             </div>
 
             <div className="flex flex-wrap gap-4">
@@ -96,7 +96,7 @@ export default function Contact() {
 
           <form
             onSubmit={handleSubmit}
-            action="https://script.google.com/macros/s/AKfycbzN_MUgkMwjuDk-oxaxFGZznqEbovk7aNd858V8nBi4v2PQeiUhC7a4Ssd07vGduty8/exec"
+            action="https://script.google.com/macros/s/AKfycbyG4CUD5cVtcQZoP1mlOsyYVNykrvTTeFrIFqoOWjfEjDBBOWqyYdRZ8CjAH2iP-QKkEQ/exec"
             method="POST"
             className="glass p-8 rounded-2xl space-y-6"
           >

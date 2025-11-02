@@ -11,7 +11,7 @@ export default function Footer() {
             <p className="text-muted-foreground">Crafting immersive digital experiences</p>
             <div className="flex items-center gap-2 text-muted-foreground mt-2 justify-center md:justify-start">
               <MapPin size={16} weight="duotone" />
-              <span className="text-sm">Magdeburg, Germany</span>
+              <span className="text-sm">Germany</span>
             </div>
           </div>
 
