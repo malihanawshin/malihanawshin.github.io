@@ -7,7 +7,7 @@ import { Sparkles, Coffee, MessageSquare, BarChart3, Code2, Cpu, Database } from
 const skills = [
   {
     name: "Programming Languages",
-    description: "JavaScript, TypeScript, Swift, Java, Python, C++, C, PHP",
+    description: "Java, Swift, JavaScript, TypeScript, Python, C++, C, PHP",
     icon: Code2,
   },
   {
@@ -22,12 +22,12 @@ const skills = [
   },
   {
     name: "Databases",
-    description: "SQL, MySQL, DynamoDB, SQLite, CoreData, Firebase",
+    description: "MySQL, JDBC, DynamoDB, SQLite, CoreData, Firebase",
     icon: Database,
   },
   {
     name: "Tools & IDEs",
-    description: "Xcode, VS Code, Android Studio, PyCharm, Unity & Vuforia",
+    description: "Xcode, VS Code, Android Studio, Eclipse, IntelliJ IDEA, PyCharm, Unity & Vuforia",
     icon: Cpu,
   },
   {
