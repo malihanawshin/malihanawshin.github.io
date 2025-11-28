@@ -6,6 +6,26 @@ import { Button } from "@/components/ui/button"
 
 const projects = [
   {
+    title: "EchoChat",
+    dates: "November 2025 - Present",
+    description: (
+      <>
+        Real-time messaging full-stack web app featuring secure authentication, instant communication, and responsive design. Hosted on{" "}
+        <a 
+          href="https://echochat-jdwys.sevalla.app/login" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="text-blue-400 hover:underline" // Tailwind example
+        >
+          EchoChat
+        </a>.
+      </>
+    ),
+    tech: ["React", "Node.js", "Socket.IO", "MongoDB", "Express", "Sevalla", "Tailwind CSS"],
+    image: "/echochat.png",
+    link: "https://github.com/malihanawshin/EchoChat",
+  },
+  {
     title: "Flex Rental",
     dates: "September 2025 - Present",
     description:
@@ -16,7 +36,7 @@ const projects = [
   },
   {
     title: "CareSync-JavaFX",
-    dates: "October 2025 - Present",
+    dates: "October 2025 – November 2025",
     description:
       "A Healthcare Management System desktop application designed for patient record management, appointment scheduling, and report analysis to support clinic operations. Lightweight for desktop use with JavaFX and JDBC.​​​​",
     tech: ["Java", "JavaFX", "JDBC", "MySQL", "Maven"],
@@ -67,15 +87,6 @@ const projects = [
     tech: ["React", "Solidity", "Web3.js", "Ethereum", "Node.js"],
     image: "/dce_app.png",
     link: "https://github.com/malihanawshin/CircularEconomy_frontend",
-  },
-  {
-    title: "Anko – Bengali Handwritten Number Recognizer",
-    dates: "2019",
-    description:
-      "Android application for Bengali handwritten number recognition integrating machine learning models to achieve high-accuracy classification.",
-    tech: ["Android", "Java", "Python"],
-    image: "/cnn.png",
-    link: "https://github.com/malihanawshin/Anko_HBNR",
   },
 ];
 
