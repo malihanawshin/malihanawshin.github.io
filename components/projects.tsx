@@ -26,6 +26,15 @@ const projects = [
     link: "https://github.com/malihanawshin/EchoChat",
   },
   {
+    title: "Cloud Voice Agent",
+    dates: "January 2026 - Present",
+    description:
+      "Voice-Ops system that allows users to manage cloud resources using natural language commands, integrating Speech-to-Text systems with decision-making agents to optimize cloud deployments and monitor carbon emissions.",
+    tech: ["React", "TypeScript", "Python", "FAST API", "OpenAI Whisper"],
+    image: "/cloudvoice.png",
+    link: "https://github.com/malihanawshin/CloudVoice-agent",
+  },
+  {
     title: "Flex Rental",
     dates: "September 2025 - Present",
     description:
@@ -35,7 +44,7 @@ const projects = [
     link: "https://github.com/malihanawshin/house-rental",
   },
   {
-    title: "CareSync-JavaFX",
+    title: "CareSync",
     dates: "October 2025 – November 2025",
     description:
       "A Healthcare Management System desktop application designed for patient record management, appointment scheduling, and report analysis to support clinic operations. Lightweight for desktop use with JavaFX and JDBC.​​​​",
@@ -61,15 +70,15 @@ const projects = [
     image: "/greendev.png",
     link: "https://github.com/malihanawshin/Develop_Greenly",
   },
-  {
-    title: "Landmarks BD",
-    dates: "September 2025 – Present",
-    description:
-      "An iOS app that lets users discover the most beautiful natural landmarks across Bangladesh. The app combines travel inspiration, user engagement, and gamified exploration in one elegant interface.",
-    tech: ["iOS","SwiftUI", "UIKit", "Swift"],
-    image: "/landmarks.png",
-    link: "https://github.com/malihanawshin/Landmarks-BD",
-  },
+  // {
+  //   title: "Landmarks BD",
+  //   dates: "September 2025 – Present",
+  //   description:
+  //     "An iOS app that lets users discover the most beautiful natural landmarks across Bangladesh. The app combines travel inspiration, user engagement, and gamified exploration in one elegant interface.",
+  //   tech: ["iOS","SwiftUI", "UIKit", "Swift"],
+  //   image: "/landmarks.png",
+  //   link: "https://github.com/malihanawshin/Landmarks-BD",
+  // },
   {
     title: "Solar ROI Estimator",
     dates: "October 2025 – Present",
@@ -88,6 +97,24 @@ const projects = [
     image: "/dce_app.png",
     link: "https://github.com/malihanawshin/CircularEconomy_frontend",
   },
+  // {
+  //   title: "Flex Rental",
+  //   dates: "September 2025 - Present",
+  //   description:
+  //     "Full-stack web application for managing and analyzing property reviews from Hostaway with an interactive dashboard and real-time metrics.",
+  //   tech: ["React", "Node.js", "Express", "Vercel", "Google Maps API"],
+  //   image: "/houserental.png",
+  //   link: "https://github.com/malihanawshin/house-rental",
+  // },
+  // {
+  //   title: "Conveyor Simulator",
+  //   dates: "March 2026 - Present",
+  //   description:
+  //     "C++/Qt-based conveyor sorting simulator with an industrial HMI, featuring real-time machine monitoring, alarm and event history, and configurable routing logic. Built the protoype with  to demonstrate machine-state handling, fault detection, and testable automation software design.",
+  //   tech: ["C++", "Qt-GUI", "CMake", "JSON", "GoogleTest"],
+  //   image: "/ConvenyorSimulator.png",
+  //   link: "https://github.com/malihanawshin/ConveyorSimulator",
+  // },
 ];
 
 
