@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button"
 const projects = [
   {
     title: "EchoChat",
-    dates: "November 2025 - Present",
+    dates: "November 2025 - January 2026",
     description: (
       <>
         Real-time messaging full-stack web app featuring secure authentication, instant communication, and responsive design. Hosted on{" "}
@@ -36,7 +36,7 @@ const projects = [
   },
   {
     title: "Flex Rental",
-    dates: "September 2025 - Present",
+    dates: "September 2025 - December 2025",
     description:
       "Full-stack web application for managing and analyzing property reviews from Hostaway with an interactive dashboard and real-time metrics.",
     tech: ["React", "Node.js", "Express", "Vercel", "Google Maps API"],
@@ -81,7 +81,7 @@ const projects = [
   // },
   {
     title: "Solar ROI Estimator",
-    dates: "October 2025 – Present",
+    dates: "October 2025 – December 2025",
     description:
       "Cross-platform mobile app for estimating solar panel return on investment (ROI) based on home details like electricity usage and size. It calculates production, savings, payback, and CO₂ reductions using standard PV formulas.",
     tech: ["React Native","TypeScript", "Expo", "iOS"],
