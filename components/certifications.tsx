@@ -13,6 +13,18 @@ type Certificate = {
 }
 
 const certificates: Certificate[] = [
+
+  // ==== Language Certification ====
+  {
+    title: "telc Deutsch B1 Certificate",
+    organization: "Telc GmbH",
+    date: "April 2, 2026",
+    description:
+      "Telc Deutsch B1 Certificate demonstrates the test taker's ability to understand a variety of standard everyday spoken and written German texts, react to the content of such texts, deal with important language tasks that may occur both in everyday life and at the workplace, follow and take an active part in everyday conversations, both in private and working contexts.",
+    type: "Language",
+    image: "/certificates/telc-logo.jpg",
+  },
+
   // ==== AWS Certification ====
   {
     title: "AWS Certified Cloud Practitioner",
@@ -26,18 +38,6 @@ const certificates: Certificate[] = [
     type: "Cloud",
     image: "/certificates/AWS_CLF_02.png",
     //link: "https://www.credly.com/badges/651f9c9f-70a0-4d30-911e-84d0d7c02a7c/public_url",
-  },
-
-  // ==== Language Certification ====
-  {
-    title: "Goethe-Zertifikat Deutsch A1",
-    organization: "Goethe-Institut",
-    date: "February 4, 2025",
-    description:
-      "Certified basic proficiency in German (A1 Level), including reading, writing, listening, and speaking skills.",
-    type: "Language",
-    image: "/certificates/goethe-logo.jpg",
-    //link: "https://drive.google.com/file/d/1Gi_KWpvndz5mdwqWPQtbd9U3iGfiVIZs/view?usp=sharing",
   },
 
   // ==== Technical Certification ====
