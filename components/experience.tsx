@@ -6,18 +6,30 @@ import { motion } from "framer-motion"
 
 export default function Experience() {
   const experience = [
-  {
+    {
     id: 1,
-    start: "Sept 2024",
+    start: "May 2026",
     end: "Present",
-    role: "Software Developer (Freelance)",
-    company: "Remote",
-    location: "Remote",
+    role: "Full-Stack Automation Engineer",
+    company: "NOAVIA GmbH",
+    location: "Berlin, Germany",
     details: [
-      "Developed an AI-powered iOS travel app 'WanderMind', enabling tourists to access instant information, historical facts, and personalized recommendations.",
-      "Developed Green-dev dashboard deployed on AWS EC2 to visualize the carbon footprint of software development activities, promoting sustainable and eco-efficient coding practices.",
-    ],
-  },
+       "Building AI agents to automate lead generation and CRM enrichment for the sales team.",
+"Supporting internal adoption of AI tools (Claude, n8n).",
+"Gaining practical experience in project delivery, task tracking, and cross-functional collaboration."
+    ],},
+  // {
+  //   id: 1,
+  //   start: "Sept 2024",
+  //   end: "Present",
+  //   role: "Software Developer (Freelance)",
+  //   company: "Remote",
+  //   location: "Remote",
+  //   details: [
+  //     "Developed an AI-powered iOS travel app 'WanderMind', enabling tourists to access instant information, historical facts, and personalized recommendations.",
+  //     "Developed Green-dev dashboard deployed on AWS EC2 to visualize the carbon footprint of software development activities, promoting sustainable and eco-efficient coding practices.",
+  //   ],
+  // },
   {
     id: 2,
     start: "Jan 2024",
