@@ -13,20 +13,50 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Record start time
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: |
+          if [ -f package-lock.json ]; then
+            npm ci
+          else
+            npm install
+          fi
+
+      - name: Record build start time
         id: start
         run: echo "time=$(date +%s)" >> "$GITHUB_OUTPUT"
 
-      - name: Simulated site build
-        run: |
-          echo "Measuring GitHub Pages repository workflow"
-          sleep 10
+      - name: Build Next.js app
+        run: npm run build
 
-      - name: Record end time
+      - name: Start Next.js app and smoke test
+        run: |
+          npm run start -- --hostname 127.0.0.1 --port 3000 &
+          SERVER_PID=$!
+
+          for i in {1..30}; do
+            if curl --silent --fail http://127.0.0.1:3000 > /dev/null; then
+              echo "Next.js app started successfully"
+              kill $SERVER_PID
+              exit 0
+            fi
+            sleep 1
+          done
+
+          echo "Next.js app did not start in time"
+          kill $SERVER_PID
+          exit 1
+
+      - name: Record build end time
         id: end
         run: echo "time=$(date +%s)" >> "$GITHUB_OUTPUT"
 
-      - name: Calculate duration
+      - name: Calculate build duration
         id: duration
         run: |
           start=${{ steps.start.outputs.time }}
