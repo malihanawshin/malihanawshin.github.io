@@ -8,6 +8,9 @@ on:
 jobs:
   green-metrics:
     runs-on: ubuntu-latest
+    env:
+      GREEN_METRICS_URL: ${{ secrets.GREEN_METRICS_URL }}
+      GREEN_METRICS_TOKEN: ${{ secrets.GREEN_METRICS_TOKEN }}
 
     steps:
       - uses: actions/checkout@v4
