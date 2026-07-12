@@ -10,20 +10,40 @@ const projects = [
     dates: "November 2025 - January 2026",
     description: (
       <>
-        Real-time messaging full-stack web app featuring secure authentication, instant communication, and responsive design. Hosted on{" "}
+        Real-time messaging full-stack web app featuring secure authentication, instant communication, and responsive design. {" "}
         <a 
           href="https://echochat-jdwys.sevalla.app/login" 
           target="_blank" 
           rel="noopener noreferrer"
           className="text-blue-400 hover:underline" // Tailwind example
         >
-          EchoChat
+          Check out the live app
         </a>.
       </>
     ),
     tech: ["React", "Node.js", "Socket.IO", "MongoDB", "Express", "Sevalla", "Tailwind CSS"],
     image: "/echochat.png",
     link: "https://github.com/malihanawshin/EchoChat",
+  },
+  {
+    title: "Develop Greenly",
+    dates: "July 2025– July 2026",
+    description: (
+      <>
+        An interactive dashboard deployed on AWS EC2 to visualize the carbon footprint of software development activities, promoting sustainable and eco-efficient coding practices. Hosted {" "}
+        <a 
+          href="http://63.179.89.6/" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="text-blue-400 hover:underline" // Tailwind example
+        >
+          here
+        </a>.
+      </>
+    ),
+    tech: ["React", "Python", "Docker", "AWS", "GitHub Actions"],
+    image: "/greendev.png",
+    link: "https://github.com/malihanawshin/Develop_Greenly",
   },
   {
     title: "Cloud Voice Agent",
@@ -60,15 +80,6 @@ const projects = [
     tech: ["iOS","SwiftUI", "AWS Lambda", "Python", "OpenAI API"],
     image: "/background2.jpeg",
     link: "https://github.com/malihanawshin/WanderMind",
-  },
-  {
-    title: "Green Dev Dashboard",
-    dates: "July – September 2025",
-    description:
-      "An interactive dashboard deployed on AWS EC2 to visualize the carbon footprint of software development activities, promoting sustainable and eco-efficient coding practices.",
-    tech: ["React", "Python", "Docker", "AWS", "GitHub Actions"],
-    image: "/greendev.png",
-    link: "https://github.com/malihanawshin/Develop_Greenly",
   },
   // {
   //   title: "Landmarks BD",

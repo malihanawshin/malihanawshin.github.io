@@ -10,13 +10,13 @@ export default function Experience() {
     id: 1,
     start: "May 2026",
     end: "Present",
-    role: "Full-Stack Automation Engineer",
+    role: "AI Automation Engineer",
     company: "NOAVIA GmbH",
     location: "Berlin, Germany",
     details: [
-       "Building AI agents to automate lead generation and CRM enrichment for the sales team.",
-"Supporting internal adoption of AI tools (Claude, n8n).",
-"Gaining practical experience in project delivery, task tracking, and cross-functional collaboration."
+       "Developing AI-driven workflows and system integrations for business process automation.",
+       "Collaborating in Agile 10-day sprints to analyze processes, deliver MVPs, test solutions, and support production deployment.",
+       "Supporting internal adoption of AI tools (Claude, n8n).",
     ],},
   // {
   //   id: 1,
