@@ -75,7 +75,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-8 pt-8 border-t border-primary/10 text-center text-muted-foreground">
-          <p>© 2025 Maliha Nawshin Rahman. All rights reserved.</p>
+          <p>© 2026 Maliha Nawshin Rahman. All rights reserved.</p>
         </div>
       </div>
     </footer>

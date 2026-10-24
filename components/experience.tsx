@@ -11,27 +11,27 @@ export default function Experience() {
     start: "May 2026",
     end: "Present",
     role: "AI Automation Engineer",
-    company: "NOAVIA GmbH",
+    company: "NOAVIA UG",
     location: "Berlin, Germany",
     details: [
-       "Developing AI-driven workflows and system integrations for business process automation.",
-       "Collaborating in Agile 10-day sprints to analyze processes, deliver MVPs, test solutions, and support production deployment.",
-       "Supporting internal adoption of AI tools (Claude, n8n).",
+       "Automate repetitive business processes for industrial clients by developing AI-powered workflows and integrating internal systems using n8n, Claude, Codex, REST APIs, webhooks, and event-driven architectures.",
+      "Design, develop, and deploy AI agents and agentic architectures, managing implementation and deployment workflows through CI/CD and hosting on VPS."
     ],},
-  // {
-  //   id: 1,
-  //   start: "Sept 2024",
-  //   end: "Present",
-  //   role: "Software Developer (Freelance)",
-  //   company: "Remote",
-  //   location: "Remote",
-  //   details: [
-  //     "Developed an AI-powered iOS travel app 'WanderMind', enabling tourists to access instant information, historical facts, and personalized recommendations.",
-  //     "Developed Green-dev dashboard deployed on AWS EC2 to visualize the carbon footprint of software development activities, promoting sustainable and eco-efficient coding practices.",
-  //   ],
-  // },
   {
     id: 2,
+    start: "June 2026",
+    end: "Present",
+    role: "Fractional CTO",
+    company: "Samanta",
+    location: "Ireland",
+    details: [
+      "Lead technical strategy and oversee end-to-end delivery of Samanta mobile app and dashboard.", 
+      "Advise on architecture, technology choices, scalability, security, and infrastructure while coordinating technical partners", 
+      "Oversee software quality, code and repository management, testing, deployment, production stability, technical documentation, and risk management."
+    ],
+  },
+  {
+    id: 3,
     start: "Jan 2024",
     end: "July 2024",
     role: "Lecturer",
@@ -42,18 +42,18 @@ export default function Experience() {
       "Supervised students and taught courses including Information Systems Design, Advanced Database, and Discrete Mathematics.",
     ],
   },
-  {
-    id: 3,
-    start: "Feb 2022",
-    end: "June 2022",
-    role: "Frontend Developer",
-    company: "Solita",
-    location: "Finland",
-    details: [
-      "Developed features for the Distributed Circular Economy project — a blockchain-based web platform for selling and buying recycled products.",
-      "Implemented smart-contract integrations using ReactJS and Solidity, collaborating with 7 multinational colleagues.",
-    ],
-  },
+  // {
+  //   id: 3,
+  //   start: "Feb 2022",
+  //   end: "June 2022",
+  //   role: "Frontend Developer",
+  //   company: "Solita",
+  //   location: "Finland",
+  //   details: [
+  //     "Developed features for the Distributed Circular Economy project — a blockchain-based web platform for selling and buying recycled products.",
+  //     "Implemented smart-contract integrations using ReactJS and Solidity, collaborating with 7 multinational colleagues.",
+  //   ],
+  // },
   {
     id: 4,
     start: "July 2019",
