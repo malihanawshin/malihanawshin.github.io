@@ -32,6 +32,18 @@ export default function Experience() {
   },
   {
     id: 3,
+    start: "Sept 2024",
+    end: "April 2026",
+    role: "Software Developer (Freelance)",
+    company: "Remote",
+    location: "Remote",
+    details: [
+      "Developed an AI-powered iOS travel app 'WanderMind', enabling tourists to access instant information, historical facts, and personalized recommendations.",
+      "Developed Green-dev dashboard deployed on AWS EC2 to visualize the carbon footprint of software development activities, promoting sustainable and eco-efficient coding practices.",
+    ],
+  },
+  {
+    id: 4,
     start: "Jan 2024",
     end: "July 2024",
     role: "Lecturer",
@@ -55,7 +67,7 @@ export default function Experience() {
   //   ],
   // },
   {
-    id: 4,
+    id: 5,
     start: "July 2019",
     end: "Sept 2021",
     role: "Software Engineer",
