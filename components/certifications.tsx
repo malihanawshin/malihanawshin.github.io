@@ -16,13 +16,13 @@ const certificates: Certificate[] = [
 
   // ==== Language Certification ====
   {
-    title: "telc Deutsch B1 Certificate",
+    title: "Professional German B2 Certificate",
     organization: "Telc GmbH",
-    date: "April 2, 2026",
+    date: "November 5, 2026",
     description:
-      "Telc Deutsch B1 Certificate demonstrates the test taker's ability to understand a variety of standard everyday spoken and written German texts, react to the content of such texts, deal with important language tasks that may occur both in everyday life and at the workplace, follow and take an active part in everyday conversations, both in private and working contexts.",
+      "The German Test for Professional Purposes B2 assesses language proficiency at the B2 level of the Common European Framework of Reference for Languages ​​(CEFR).By obtaining this certificate, candidates demonstrate general professional language competence at the CEFR B2 level. This includes the ability to: understand the main content of complex texts related to workplace instructions, work organization, and the labor market.",
     type: "Language",
-    image: "/certificates/telc-logo.jpg",
+    image: "/certificates/telc_b2_certificate.jpeg",
   },
 
   // ==== AWS Certification ====
