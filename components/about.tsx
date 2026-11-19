@@ -99,7 +99,14 @@ export default function About() {
           >
             <h2 className="text-5xl font-bold mb-6 glow-text">About Me</h2>
             <p className="text-lg text-muted-foreground leading-relaxed mb-8">
-             I'm a software engineer and researcher passionate about building intelligent, sustainable digital solutions. With expertise in mobile and web development, AI integration, and green software engineering, I create applications that combine performance, usability, and environmental responsibility.
+              I'm an AI Software Engineer and Full-stack Developer passionate about building
+              intelligent, scalable, and sustainable digital solutions. With a
+              background in software engineering and research, I work across AI
+              agents, LLM-powered applications, RAG systems, workflow automation,
+              and full-stack development. I enjoy turning complex business
+              challenges into practical software solutions, from system
+              architecture and API integrations to deployment and cloud
+              infrastructure.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
