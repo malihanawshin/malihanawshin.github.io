@@ -6,6 +6,35 @@ import { Button } from "@/components/ui/button"
 
 const projects = [
   {
+  title: "KnowFlow AI",
+  dates: "November 2026 - Present",
+  description: (
+    <>
+      AI-powered document search and question-answering application that combines hybrid retrieval and RAG to answer questions about uploaded PDFs in natural language. Provides verifiable answers with filename, page-level citations, and supporting passages, with workspace-scoped access control. Try the live demo {" "}
+      <a
+        href="https://knowflow-ai-web-preview.vercel.app/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-400 hover:underline"
+      >
+        here
+      </a>.
+    </>
+  ),
+  tech: ["Python", "FastAPI", "Next.js", "PostgreSQL", "pgvector", "RAG", "LLMs", "Semantic Search", "Vercel"],
+  image: "/knowflow-ai.png",
+  link: "https://github.com/malihanawshin/KnowFlow-AI",
+},
+{
+    title: "Cloud Voice Agent",
+    dates: "January 2026 - March 2026",
+    description:
+      "Voice-Ops system that allows users to manage cloud resources using natural language commands, integrating Speech-to-Text systems with decision-making agents to optimize cloud deployments and monitor carbon emissions.",
+    tech: ["React", "TypeScript", "Python", "FAST API", "OpenAI Whisper"],
+    image: "/cloudvoice.png",
+    link: "https://github.com/malihanawshin/CloudVoice-agent",
+  },
+  {
     title: "EchoChat",
     dates: "November 2025 - January 2026",
     description: (
@@ -44,24 +73,6 @@ const projects = [
     tech: ["React", "Python", "Docker", "AWS", "GitHub Actions"],
     image: "/greendev.png",
     link: "https://github.com/malihanawshin/Develop_Greenly",
-  },
-  {
-    title: "Cloud Voice Agent",
-    dates: "January 2026 - Present",
-    description:
-      "Voice-Ops system that allows users to manage cloud resources using natural language commands, integrating Speech-to-Text systems with decision-making agents to optimize cloud deployments and monitor carbon emissions.",
-    tech: ["React", "TypeScript", "Python", "FAST API", "OpenAI Whisper"],
-    image: "/cloudvoice.png",
-    link: "https://github.com/malihanawshin/CloudVoice-agent",
-  },
-  {
-    title: "Flex Rental",
-    dates: "September 2025 - December 2025",
-    description:
-      "Full-stack web application for managing and analyzing property reviews from Hostaway with an interactive dashboard and real-time metrics.",
-    tech: ["React", "Node.js", "Express", "Vercel", "Google Maps API"],
-    image: "/houserental.png",
-    link: "https://github.com/malihanawshin/house-rental",
   },
   {
     title: "CareSync",

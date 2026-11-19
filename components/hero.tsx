@@ -75,7 +75,7 @@ export default function Hero() {
         >
           <Typewriter
             options={{
-              strings: ["AI Engineer, Software Engineer, Fullstack Developer, Researcher, Green Coding Enthusiast"],
+              strings: ["AI Software Engineer, Fullstack Engineer, Researcher, Green Coding Enthusiast"],
               autoStart: true,
               loop: true,
               delay: 50,

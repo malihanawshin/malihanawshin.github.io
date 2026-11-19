@@ -2,42 +2,48 @@
 
 import { useEffect, useRef, useState } from "react"
 import Image from "next/image"
-import { Sparkles, Coffee, MessageSquare, BarChart3, Code2, Cpu, Database } from "lucide-react"
+import { Sparkles, Coffee, MessageSquare, BarChart3, Code2, Cpu, Database, Cloud, BrainCircuit } from "lucide-react"
+
 
 const skills = [
   {
     name: "Programming Languages",
-    description: "Java, Swift, JavaScript, TypeScript, Python, C++, C, PHP",
+    description: "Java, Python, Swift, JavaScript, TypeScript, C++, C, PHP, SQL",
     icon: Code2,
   },
   {
     name: "Frameworks & Libraries",
-    description: "React.js, Node.js, Express, Vue.js, React Native, Laravel, TensorFlow, OpenGL",
+    description: "React.js, Node.js, Express, Vue.js, React Native, FastAPI, Flutter, Laravel, TensorFlow, OpenGL",
     icon: Sparkles,
   },
   {
-  name: "Web Technologies",
-  description: "HTML5, CSS3, Tailwind CSS, REST APIs, Webpack, Responsive Design",
-  icon: BarChart3,
+    name: "AI & Automation",
+    description: "LLM Agents, Agentic AI, RAG, LangGraph, Prompt Engineering, AI Workflow Automation, n8n, Claude, OpenAI, Codex, Vector Databases, Semantic Search, MCP",
+    icon: BrainCircuit,
+  },
+  {
+    name: "Web Technologies",
+    description: "HTML5, CSS3, Tailwind CSS, REST APIs, Webhooks, API Integrations, Webpack, Responsive Design",
+    icon: BarChart3,
   },
   {
     name: "Databases",
-    description: "MySQL, JDBC, DynamoDB, SQLite, CoreData, Firebase",
+    description: "MySQL, PostgreSQL, MongoDB, JDBC, DynamoDB, SQLite, CoreData, Firebase, Supabase, pgvector",
     icon: Database,
   },
   {
+    name: "Cloud & DevOps",
+    description: "AWS, Hetzner, Docker, Git, GitHub, GitLab, GitHub Actions, GitLab CI/CD, CI/CD Pipelines, Linux, Infrastructure Management",
+    icon: Cloud,
+  },
+  {
     name: "Tools & IDEs",
-    description: "Xcode, VS Code, Android Studio, Eclipse, IntelliJ IDEA, PyCharm, Unity & Vuforia",
+    description: "Xcode, VS Code, Android Studio, Eclipse, IntelliJ IDEA, PyCharm, Unity & Vuforia, Postman",
     icon: Cpu,
   },
   {
-    name: "Cloud & DevOps",
-    description: "Git, AWS, CI/CD, Docker",
-    icon: Coffee,
-  },
-  {
     name: "Project Management",
-    description: "Scrum, Slack, Trello, Agile methods",
+    description: "Scrum, Agile Methods, Slack, Trello, Jira, Technical Documentation, Cross-functional Collaboration",
     icon: MessageSquare,
   },
 ];
