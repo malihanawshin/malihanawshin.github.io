@@ -10,7 +10,7 @@ export default function Experience() {
     id: 1,
     start: "May 2026",
     end: "Present",
-    role: "AI Automation Engineer",
+    role: "AI Engineer",
     company: "NOAVIA UG",
     location: "Berlin, Germany",
     details: [

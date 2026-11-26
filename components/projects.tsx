@@ -74,15 +74,15 @@ const projects = [
     image: "/greendev.png",
     link: "https://github.com/malihanawshin/Develop_Greenly",
   },
-  {
-    title: "CareSync",
-    dates: "October 2025 – November 2025",
-    description:
-      "A Healthcare Management System desktop application designed for patient record management, appointment scheduling, and report analysis to support clinic operations. Lightweight for desktop use with JavaFX and JDBC.​​​​",
-    tech: ["Java", "JavaFX", "JDBC", "MySQL", "Maven"],
-    image: "/caresync.png",
-    link: "https://github.com/malihanawshin/CareSync-JavaFX",
-  },
+  // {
+  //   title: "CareSync",
+  //   dates: "October 2025 – November 2025",
+  //   description:
+  //     "A Healthcare Management System desktop application designed for patient record management, appointment scheduling, and report analysis to support clinic operations. Lightweight for desktop use with JavaFX and JDBC.​​​​",
+  //   tech: ["Java", "JavaFX", "JDBC", "MySQL", "Maven"],
+  //   image: "/caresync.png",
+  //   link: "https://github.com/malihanawshin/CareSync-JavaFX",
+  // },
     {
     title: "Wander Mind",
     dates: "July 2025 – Aug 2025",
